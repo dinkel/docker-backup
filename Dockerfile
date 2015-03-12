@@ -16,6 +16,7 @@ RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y \
         btrfs-tools \
         git \
+        ldap-utils \
         mysql-client \
         postgresql-client \
         rsync && \
